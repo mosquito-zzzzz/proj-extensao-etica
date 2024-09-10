@@ -1,0 +1,44 @@
+.section1,
+.section2 {
+	display: flex;
+	justify-content: space-between;
+	gap: 32px;
+	text-align: justify;
+	align-items: center;
+	font-weight: 300;
+}
+
+.img-section1,
+.img-section2 {
+	width: 40%;
+	border-radius: 16px;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 32px;
+	align-items: center;
+}
+
+footer small {
+	font-weight: 100;
+	font-size: 12px;
+}
+
+footer nav {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+footer nav ul {
+	list-style: none;
+	display: flex;
+	gap: 16px;
+}
+
+footer nav ul a img {
+	width: 24px;
+	filter: invert(100%);
+}
