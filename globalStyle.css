@@ -11,6 +11,9 @@
 	text-decoration: none;
 }
 
+html {
+	scroll-behavior: smooth;
+
 a {
 	color: rgb(255, 255, 255);
 }
